@@ -1,0 +1,119 @@
+:root{
+    --bgc:white;
+    --btn:orange;
+    --box-shadow:0px 0px 5px white;
+    --color:black; 
+    --col:aqua;
+}
+
+body{
+    margin: 0;
+    background-color: var(--color);  
+} 
+
+a{
+    color: blue;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header_menu{
+    box-shadow: 0px 15px 10px -15px var(--btn);
+}
+
+.logo{
+    color: var(--bgc);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.logo label{
+    color: rgb(0, 230, 130);
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;  
+}
+
+nav ul a{
+    color:var(--bgc);
+    text-decoration:none ;
+    font-size: medium;
+}
+
+nav ul :hover{
+    color: var(--btn);
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.container .left{
+    color: var(--bgc);
+    width: 50%;
+    align-items: center;
+}
+
+.container.left.p{
+    font-size: medium;
+}
+
+.container.left.h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.container .left .subt{
+    color: rgb(0, 176, 0);
+    text-shadow: 1px 1px 10px rgb(75, 255, 153);
+}
+
+.container .div .right{
+    width: 50px;
+    align-items: center;
+}
+
+button{
+    background-color: var(--btn);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+button:hover{
+    color: black;
+}
+.container .right{
+    margin-top: 100px;
+}
+
+img {
+    filter: drop-shadow(0px 0px 0px rgb(0, 52, 223));
+}
+
+img:hover {
+    filter: drop-shadow(-4px 4px 100px rgb(255, 0, 0));
+    transition: all 0.5s;
+}
